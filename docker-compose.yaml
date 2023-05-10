@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    container_name: eve-arbitrage-container
+    command: python main.py
+    volumes:
+      - .:/app
